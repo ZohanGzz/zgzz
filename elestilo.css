@@ -1,6 +1,7 @@
 html{
 text-align:center;
 margin:0 auto;
+background-color: #000000;
 background-image: url("Triangles.bmp");
 width:auto;
 }
@@ -13,7 +14,7 @@ background-color: #303030;
 padding:1 px;
 border-style: solid;
 border-color: black;
-width: 80%;
+width: 75%;
 }
 
 @media only screen and (max-width: 790px) {
