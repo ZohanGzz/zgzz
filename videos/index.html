@@ -21,6 +21,22 @@
 <a href="../debate/index.html"><button>DEBATE</button></a>
 <a href="http://zgzzpages.a0001.net"><button>SUBIR ARCHIVOS (BETA)</button></a>
 <hr/>
+
+<button onclick="myFunction()">Buscar por texto</button>
+
+<script>
+function myFunction() {
+ 
+    var search = prompt("Buscar en esta pagina:");
+    if (search == null || search == "") {
+        alert("Ha cancelado la busqueda");
+    } else {
+        find(search)
+    }
+   
+}
+</script>
+  
 <p>Videos:</p>
   <p>(La lista se actualiza hacia abajo.)</p>
 
