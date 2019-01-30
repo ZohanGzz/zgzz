@@ -35,3 +35,20 @@ margin: 0 auto;
 text-align:left;
 width:90%;
 }
+
+button {
+  background-color: #332F2C;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: ;
+  margin: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #332F2C;
+  color: red;
