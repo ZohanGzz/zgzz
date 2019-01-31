@@ -26,11 +26,36 @@
 <img src="../insignia_notepad.gif">
 <hr/>
 
-<a href="https://time.is/Mexico_City" id="time_is_link" rel="nofollow" style="color:white;background:black"></a>
-<span id="Mexico_City_z159" style="color:white;background:black">Mex.D.F.</span>
-<script src="//widget.time.is/t.js"></script>
-<script>
-time_is_widget.init({Mexico_City_z159:{time_format:"12hours:minutes:secondsAMPM"}});
+<script type="text/javascript">
+function startTime(){
+today=new Date();
+h=today.getHours();
+m=today.getMinutes();
+s=today.getSeconds();
+m=checkTime(m);
+s=checkTime(s);
+document.getElementById('reloj').innerHTML=h+":"+m+":"+s;
+t=setTimeout('startTime()',500);}
+function checkTime(i)
+{if (i<10) {i="0" + i;}return i;}
+window.onload=function(){startTime();}
+</script>
+<div id="reloj" style="font-size:20px;"></div>
+
+<script type="text/javascript">
+//<![CDATA[
+function makeArray() {
+for (i = 0; i<makeArray.arguments.length; i++)
+this[i + 1] = makeArray.arguments[i];}
+var months = new makeArray('Enero','Febrero','Marzo','Abril','Mayo',
+'Junio','Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre');
+var date = new Date();
+var day = date.getDate();
+var month = date.getMonth() + 1;
+var yy = date.getYear();
+var year = (yy < 1000) ? yy + 1900 : yy;
+document.write("Hoy es " + day + " de " + months[month] + " del " + year);
+//]]>
 </script>
   
 <div id="contenedor">
