@@ -4,6 +4,7 @@ margin:0 auto;
 background-color: #000000;
 background-image: url("Sandstone.bmp");
 width:auto;
+cursor: url("https://3.bp.blogspot.com/-bmGsrYXWF0U/XFJj0dBSqhI/AAAAAAAADHs/rlPloM66UFEFzC6q3_JbC8ayzKFzJVgPwCLcBGAs/s1600/unnamedPequeno.png"),default;
 }
 
 body{
@@ -15,6 +16,7 @@ padding:1 px;
 border-style: solid;
 border-color: black;
 width: 70%;
+cursor:default;
 }
 
 @media only screen and (max-width: 790px) {
