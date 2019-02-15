@@ -12,7 +12,6 @@ text-align:center;
 margin:0 auto;
 background-image: url("texturaoscurayoutube.png");
 background-color: #303030;
-padding:1 px;
 border-style: solid;
 border-color: black;
 width: 70%;
@@ -21,14 +20,9 @@ cursor:default;
 
 @media only screen and (max-width: 790px) {
 body{
-text-align:center;
-margin:0 auto;
-background-image: url("texturaoscurayoutube.png");
-background-color: #303030;
-padding:1 px;
+width: 100%;
 border-style: none;
 border-color: none;
-width: 100%;
 }
 }
 
