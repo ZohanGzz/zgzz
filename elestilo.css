@@ -65,3 +65,8 @@ ul {
   position: -webkit-sticky;
   position: sticky;
 }
+
+.myVideo {
+height: auto;
+width: 100%;
+}
