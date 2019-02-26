@@ -60,7 +60,7 @@ ul {
   padding: 0;
   top: 0;
   width: 100%;
-  background-image: url("texturaoscurayoutube.png");
+  background-color: #191919;
   position: -webkit-sticky;
   position: sticky;
 }
