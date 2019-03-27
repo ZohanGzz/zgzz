@@ -9,7 +9,8 @@
   text-decoration:none;
 }
 .active .enlacemusic {
-  color: green;
+  color: white;
+  background-color: grey;
   text-decoration:none;
 }
 li .enlacemusic{
