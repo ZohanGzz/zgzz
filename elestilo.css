@@ -11,8 +11,8 @@ body{
 text-align:center;
 margin:0 auto;
 background-color: #191919;
-border-style: solid;
-border-color: black;
+border-style: double;
+border-color: white;
 width: 65%;
 cursor:default;
 }
