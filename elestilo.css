@@ -1,23 +1,30 @@
 html{
 text-align:center;
 margin:0 auto;
-background-color: #000000;
+background-color: blue;
 background-image: url("https://1.bp.blogspot.com/-umiScHO1mBY/X8CHkuLkUxI/AAAAAAAADws/GE3GBU3Tz4INPu-lN6BrhyynhjB9o-mqgCLcBGAsYHQ/s140/RippleBG.bmp");
-width:auto;
+width: auto;
 cursor: url("https://3.bp.blogspot.com/-bmGsrYXWF0U/XFJj0dBSqhI/AAAAAAAADHs/rlPloM66UFEFzC6q3_JbC8ayzKFzJVgPwCLcBGAs/s1600/unnamedPequeno.png"),default;
 }
 
 body{
 text-align:center;
 margin:0 auto;
-margin-top:0;
-margin-right:auto;
-margin-left:auto;
 background-color: #191919;
 border-style: double;
 border-color: white;
 width: 65%;
 cursor:default;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+  background-image: url("texturaoscurayoutube.png");
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 @media only screen and (max-width: 800px) {
@@ -26,6 +33,11 @@ width: 100%;
 border-style: none;
 border-color: none;
 }
+
+ul {
+list-style-type: none;
+}
+
 }
 
 #contenedor{
@@ -36,7 +48,8 @@ width:90%;
 
 button {
   background-color: #332F2C;
-  border: none;
+  border-style: none;
+  border-color: none;
   color: white;
   padding: 4px 8px;
   text-align: center;
@@ -48,6 +61,7 @@ button {
 }
 
 button:hover {
+  border-style: none;
   background-color: #332F2C;
   color: red;
 }
@@ -57,15 +71,6 @@ button:active {
   color: black;
 }
 
-ul {
-  margin: 0;
-  padding: 0;
-  top: 0;
-  width: 100%;
-  background-color: #191919;
-  position: -webkit-sticky;
-  position: sticky;
-}
 
 .myVideo {
 height: auto;
