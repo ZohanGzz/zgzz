@@ -18,11 +18,11 @@ cursor:default;
 }
 
 ul {
+  background-color: #191919;
   margin: 0;
   padding: 0;
   top: 0;
   width: 100%;
-  background-color:#191919;
   position: -webkit-sticky;
   position: sticky;
 }
